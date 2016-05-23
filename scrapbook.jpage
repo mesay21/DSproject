@@ -1,0 +1,1 @@
+ArrayList<Integer> array = new ArrayList<Integer>(10);array.trimToSize();for(int i = 0; i < 11; i++){	array.add(i);	System.out.println(array.get(i));}System.out.println("array size: " + array.size());
